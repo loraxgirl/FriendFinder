@@ -1,28 +1,29 @@
 {
-  "name": "package",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "description": "_created by Krista Clarke (github - loraxgirl)_<br> FriendFinder - Week 13 Homework",
+  "description": "_created by Krista Clarke (github - loraxgirl)_<br> **Geeky Friend Finder Matching Program**",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
   },
-  "engines": {
-    "node": "5.3.0"
-  },
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/loraxgirl/FriendFinder.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/loraxgirl/FriendFinder/issues"
   },
-  "homepage": "https://github.com/loraxgirl/FriendFinder#readme"
+  "homepage": "https://github.com/loraxgirl/FriendFinder#readme",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  }
 }
